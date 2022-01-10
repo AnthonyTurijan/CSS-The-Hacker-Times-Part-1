@@ -1,1 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+@font-face {
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/abrilfatface/v12/zOL64pLDlL1D99S8g8PtiKchq-dmjcDidBc.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+.newspaper-container {
+    width: 700px;
+    border-radius: 15px;
+    box-shadow: 5px 5px #ddd;
+    padding: 2em 1em;
+    background-color: white;
+    margin:auto;
+}
+
+h1{
+    text-align: center;
+    font-family:'Abril Fatface';
+    font-size:4em;
+    margin:auto;
+}
+ul {
+    list-style: none;
+    text-decoration: none; 
+    text-align: justify;
+    border-style: solid none;
+    border-color: #777;
+    border-width: 1px;;
+}
+li {
+    display: inline-block;
+    padding: .25em;
+    text-decoration: none;
+}
+body {
+    background-color: #eee;
+    font-family:"Source Sans Pro" 
+}
+a {
+    text-decoration: none;
+    color: #777;
+}
+h4, h2 {
+    font-family: "Roboto Slab" ;
+}
