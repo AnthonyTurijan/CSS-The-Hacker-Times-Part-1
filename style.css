@@ -47,3 +47,15 @@ a {
 h4, h2 {
     font-family: "Roboto Slab" ;
 }
+.more-articles {
+    display:inline-block;
+    width: 50%; 
+}
+h5 {
+    font-family: "Abril Fatface";
+    color: #dd3232
+}
+section {
+    display: table-cell;
+    padding: 1em;
+}
