@@ -25,7 +25,6 @@ h1{
 }
 ul {
     list-style: none;
-    text-decoration: none; 
     text-align: justify;
     border-style: solid none;
     border-color: #777;
@@ -57,5 +56,14 @@ h5 {
 }
 section {
     display: table-cell;
-    padding: 1em;
+    padding: 1.5em;
+}
+p {
+    text-align: justify;
+}
+#logo {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 100%;
 }
