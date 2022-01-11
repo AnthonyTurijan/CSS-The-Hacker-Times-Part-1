@@ -67,3 +67,8 @@ p {
     margin-right:auto;
     max-width: 100%;
 }
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
